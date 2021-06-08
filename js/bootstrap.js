@@ -60,8 +60,8 @@ window.Echo = new Echo({
 
 window.EchoDomain = new Echo({
     broadcaster: "socket.io",
-    host: 'https://echo.domain.com',
-    authEdpoint: "https://domain.com/api/broadcasting/auth",
+    host: 'https://echo.lrvl8fresh.test',
+    authEdpoint: "https://lrvl8fresh.test/api/broadcasting/auth",
     auth: {
         headers: {
             /** I'm using access tokens to access  **/
